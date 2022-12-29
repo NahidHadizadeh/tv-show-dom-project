@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link css file -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/style-media.css" />
+    <!-- link bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <title>TV Maze Website/Nahid</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <div class="logo">
+          <img
+            src="https://tvmazecdn.com/uploads/images/original_untouched/10/26150.jpg"
+            alt=""
+          />
+          <strong>TV NAHID</strong>
+        </div>
+        <div class="title-box">
+          <p>
+            this website use Tvmaze API
+            <a href="https://api.tvmaze.com/shows/82/episodes">Tvmaze API</a>
+          </p>
+          <p class="count-episode"><span>Number of episode : </span></p>
+        </div>
+        <div class="form-box">
+          <select name="episodes" id="select-Episode">
+            <option value="select-episode">Select Episode</option>
+          </select>
+          <form action="" class="input-group">
+            <input
+              name="searchInput"
+              type="text"
+              id="form1"
+              class="form-control"
+              placeholder="Enter key word"
+            />
+
+            <button id="search-button" type="submit" class="btn">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container-fluid">
+        <!-- <div class="card-body-2">
+        <h5 class="card-title">${item.name}</h5>
+        <h6 class="card-title-episode">
+          <span>S0${item.season}E0${item.number}</span>
+        </h6>
+        <p class="card-text" onclick="showAllDestructe(this)">
+          ${item.summary}
+        </p>
+        <a href="${item.url}" class="btn btn-link">link back TVmaze</a>
+      </div> -->
+        <div class="row row-main"></div>
+      </div>
+
+      <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>

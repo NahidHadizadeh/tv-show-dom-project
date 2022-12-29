@@ -1,0 +1,81 @@
+/* ========================================= media query */
+@media (max-width: 1042px) {
+  #select-Episode {
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+  .form-control {
+    font-size: 0.8rem !important;
+    padding: 3px !important;
+  }
+  #search-button {
+    line-height: 0.75px !important;
+    font-size: 0.8rem !important;
+  }
+
+  .title-box {
+    font-size: 0.9rem;
+  }
+  .logo strong {
+    font-size: 1.1rem;
+  }
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 960px) {
+  .title-box {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 780px) {
+  /* .logo strong {
+    display: none;
+  } */
+  .form-box {
+    margin-left: 2rem;
+    flex-direction: column;
+  }
+  #select-Episode {
+    order: 1;
+    width: auto;
+    margin-top: 3px;
+  }
+  .input-group {
+    width: 100% !important;
+  }
+}
+@media (max-width: 540px) {
+  .logo img {
+    width: 40px;
+    height: 40px;
+  }
+  .logo strong {
+    font-size: 0.9rem;
+  }
+  .title-box {
+    font-size: 0.8rem;
+  }
+  #select-Episode {
+    padding: 2px;
+    font-size: 0.7rem;
+  }
+  .form-control {
+    font-size: 0.7rem !important;
+    padding: 2px !important;
+  }
+  #search-button {
+    line-height: 0.5px !important;
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 450px) {
+  .logo img,
+  .logo strong {
+    display: none;
+  }
+  .title-box {
+    font-size: 0.6rem;
+  }
+}

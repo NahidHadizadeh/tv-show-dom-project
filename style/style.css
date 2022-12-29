@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@500;700&family=Lato:wght@900&family=Libre+Baskerville:wght@700&family=Montserrat:wght@300;400;500&family=Rubik+Gemstones&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", cursive;
+}
+.container-fluid a {
+  text-decoration: none;
+}
+header a {
+  text-decoration: none;
+  color: #3c948b;
+}
+header {
+  padding-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  z-index: 5;
+}
+header p {
+  text-align: center;
+  margin: 0%;
+  line-height: 1;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  padding: 1rem 1rem 1.25rem;
+  width: 100%;
+  line-height: 1;
+  background-color: white;
+  box-shadow: 0 0 3px 1px #959d9c;
+}
+.title h1 {
+  padding-left: 30px;
+}
+.input-group {
+  width: 50% !important;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo strong {
+  font-family: "Rubik Gemstones", cursive;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #c96567;
+  padding-left: 5px;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+.input-group .btn {
+  background-color: #3c948b;
+  color: white;
+}
+.form-control {
+  box-shadow: 0 0 0 0 !important;
+}
+.count-episode span {
+  color: white;
+  background-color: #c96564;
+  border-radius: 3px;
+  padding: 0 4px;
+}
+.count-episode {
+  margin-top: 8px;
+}
+.form-box {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#select-Episode {
+  width: 37%;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 7px;
+  text-align: center;
+  font-family: inherit;
+  color: #6f7174;
+}
+.title-box {
+  margin-left: 7rem;
+}
+
+/* ===================== contauner */
+main {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.container-fluid {
+  margin: 0.5rem 1rem;
+  background-color: #fefefe;
+  margin-top: 95px;
+}
+.row .btn-link {
+  background-color: #3c948b;
+  color: white;
+}
+.card {
+  width: 100%;
+  margin: 5px;
+}
+.card a:hover {
+  color: white !important;
+  background-color: rgba(60, 148, 139, 0.816) !important;
+  border-color: #3c948b !important;
+}
+.card-title-episode span {
+  padding: 0 0.3rem;
+  border-radius: 5px;
+  background-color: #c96567;
+  color: white;
+}
+.card p {
+  text-overflow: ellipsis;
+}
+.refreshPage {
+  color: #3c948b;
+  cursor: pointer;
+}
